@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Grid Preview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+    }
+    .grid img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid" id="instaGrid">
+    <!-- Add image URLs below -->
+    <img src="https://via.placeholder.com/300/000000" />
+    <img src="https://via.placeholder.com/300/FF00FF" />
+    <img src="https://via.placeholder.com/300/FFFF00" />
+    <img src="https://via.placeholder.com/300/00FF00" />
+    <img src="https://via.placeholder.com/300/FF0000" />
+    <img src="https://via.placeholder.com/300/0000FF" />
+  </div>
+</body>
+</html>
